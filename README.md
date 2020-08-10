@@ -1,6 +1,6 @@
 # gatsby-webpack-call-undefined
 
-This repo attempts to demonstrate error "WebpackError: TypeError: Cannot read property 'call' of undefined" the mentioned
+This repo attempts to demonstrate error "WebpackError: TypeError: Cannot read property 'call' of undefined" mentioned
 in Webpack issue [#6094](https://github.com/webpack/webpack/issues/6094). This example is using [loadable components](https://github.com/gregberge/loadable-components)
 in a [Gatsby](https://www.gatsbyjs.org/) project. I'm using this example because I was unable to reproduce this myself
 when writing a Webpack configuration, but it seems Gatsby's Webpack config consistently generates the error during a `npm run build`.
